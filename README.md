@@ -65,7 +65,7 @@ Heat dissipation and efficiency are concerns.
 
 ERRATA:
 
-v0.0:
+v0.0 (Josh):
 -Added INA219 circuit.
 -Connected all inputs and outputs to the 32-pin header
 -Used a shunt resistor to measure current using the INA219
