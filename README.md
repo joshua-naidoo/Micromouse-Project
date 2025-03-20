@@ -55,3 +55,21 @@ Requires a battery charging IC that can handle 9V input and safely regulate char
 Heat dissipation and efficiency are concerns.
 
 
+
+
+
+
+
+
+
+
+ERRATA:
+
+v0.0:
+-Added INA219 circuit.
+-Connected all inputs and outputs to the 32-pin header
+-Used a shunt resistor to measure current using the INA219
+-Connected A0 to ground and A1 to 3V3 (yields an address of 0x42)
+END
+
+
