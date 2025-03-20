@@ -2,16 +2,16 @@
 
 
 Josh:
-Battery monitoring with INA219 on I2C → Easy
-Integrate USB-C and get 9V from USB Host → Medium
-Charge the battery from the 9V input → Hard
-ON/OFF switch with <30uA draw in OFF state → Hard
+- Battery monitoring with INA219 on I2C → Easy (DONE)
+- Integrate USB-C and get 9V from USB Host → Medium
+- Charge the battery from the 9V input → Hard
+- ON/OFF switch with <30uA draw in OFF state → Hard
 
 Kiyuran:
-2x External Load Switching (1A High Side, 5V) → Easy
-Operate up to 4 motors bidirectionally → Medium
-3V3 (300mA) & 5V (1.5A) power regulation → Medium
-Two charging modes (200mA & ~600mA ±100mA) → Hard
+- 2x External Load Switching (1A High Side, 5V) → Easy
+- Operate up to 4 motors bidirectionally → Medium
+- 3V3 (300mA) & 5V (1.5A) power regulation → Medium
+- Two charging modes (200mA & ~600mA ±100mA) → Hard
 
 
 
