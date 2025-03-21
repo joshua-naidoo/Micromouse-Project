@@ -8,7 +8,7 @@ Josh:
 - ON/OFF switch with <30uA draw in OFF state → Hard
 
 Kiyuran:
-- 2x External Load Switching (1A High Side, 5V) → Easy
+- 2x External Load Switching (1A High Side, 5V) → Easy (DONE)
 - Operate up to 4 motors bidirectionally → Medium
 - 3V3 (300mA) & 5V (1.5A) power regulation → Medium
 - Two charging modes (200mA & ~600mA ±100mA) → Hard
@@ -72,4 +72,7 @@ v0.0 (Josh):
 -Connected A0 to ground and A1 to 3V3 (yields an address of 0x42)
 END
 
+(Kiyuran): 
+- Task 1 (2x External Load Switching (1A High Side, 5V)) Schematic Implementation Completed.
+- Added 2x external load switches using SI2301 (P-MOSFET) and 2N3904 (NPN Transistor)
 
