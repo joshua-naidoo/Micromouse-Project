@@ -63,7 +63,7 @@ Heat dissipation and efficiency are concerns.
 
 
 
-ERRATA:
+## ERRATA:
 
 (Josh)
 v0.0:
