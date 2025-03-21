@@ -69,15 +69,15 @@ Heat dissipation and efficiency are concerns.
 v0.0:
 Task 1:
 - Added INA219 circuit.
-- Connected all inputs and outputs to the 32-pin header
-- Used a shunt resistor to measure current using the INA219
-- Connected A0 to ground and A1 to 3V3 (yields an address of 0x42)
+- Connected all inputs and outputs to the 32-pin header.
+- Used a shunt resistor to measure current using the INA219.
+- Connected A0 to ground and A1 to 3V3 (yields an address of 0x42).
 
 v1.0:
 Task 2:
-- Integrated USB-C with Power Delivery to negotiate 9V instead of 5V
-- Connected 6.8K resistor at CFG1 to set 9V
-- Output goes to charge the battery
+- Integrated USB-C with Power Delivery to negotiate 9V instead of 5V.
+- Connected 6.8K resistor at CFG1 to set 9V.
+- Output goes to battery charging circuit.
 - Added RGB LED (only red used) to indicate when successful negotiation takes place. ie. When the charger is plugged in.
 
 
