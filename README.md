@@ -3,7 +3,7 @@
 
 Josh:
 - Battery monitoring with INA219 on I2C → Easy (DONE)
-- Integrate USB-C and get 9V from USB Host → Medium
+- Integrate USB-C and get 9V from USB Host → Medium (DONE)
 - Charge the battery from the 9V input → Hard
 - ON/OFF switch with <30uA draw in OFF state → Hard
 
