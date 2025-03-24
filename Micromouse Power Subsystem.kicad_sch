@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "c31c9b5f-16c8-4039-9f8b-b05613c282c9")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "Micromouse Power Subsystem")
 		(date "2025-03-19")
@@ -15,6 +15,145 @@
 		(comment 4 "@Author 1: Kiyuran Naidoo")
 	)
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_02x16_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
@@ -1024,6 +1163,141 @@
 				)
 			)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers hide)
 			(pin_names
@@ -1185,6 +1459,524 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Driver_Motor:TB6612FNG"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 11.43 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TB6612FNG"
+				(at 11.43 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
+				(at 33.02 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://toshiba.semicon-storage.com/us/product/linear/motordriver/detail.TB6612FNG.html"
+				(at 11.43 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Driver IC for Dual DC motor, SSOP-24"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "H-bridge motor driver"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SSOP-24*5.3x8.2mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TB6612FNG_0_1"
+				(rectangle
+					(start -10.16 20.32)
+					(end 10.16 -20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TB6612FNG_1_1"
+				(pin output line
+					(at 15.24 10.16 180)
+					(length 5.08)
+					(name "AO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -25.4 90)
+					(length 5.08) hide
+					(name "PGND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "BO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -2.54 180)
+					(length 5.08) hide
+					(name "BO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 25.4 270)
+					(length 5.08)
+					(name "VM2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 25.4 270)
+					(length 5.08)
+					(name "VM3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "PWMB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -10.16 0)
+					(length 5.08)
+					(name "BIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -7.62 0)
+					(length 5.08)
+					(name "BIN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -25.4 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -15.24 10.16 0)
+					(length 5.08)
+					(name "STBY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 10.16 180)
+					(length 5.08) hide
+					(name "AO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 25.4 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "AIN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -5.08 0)
+					(length 5.08)
+					(name "AIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 5.08 0)
+					(length 5.08)
+					(name "PWMA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 25.4 270)
+					(length 5.08)
+					(name "VM1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -25.4 90)
+					(length 5.08)
+					(name "PGND1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -25.4 90)
+					(length 5.08) hide
+					(name "PGND1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "AO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 5.08 180)
+					(length 5.08) hide
+					(name "AO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "BO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -7.62 180)
+					(length 5.08) hide
+					(name "BO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -25.4 90)
+					(length 5.08)
+					(name "PGND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1922,126 +2714,6 @@
 				)
 			)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -2236,64 +2908,88 @@
 		)
 	)
 	(junction
-		(at 67.31 165.1)
+		(at 278.13 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0775a915-16c2-4ab3-abd1-3ce722565ea8")
+		(uuid "45a97327-57b9-4cb9-8865-061f1be9b54a")
 	)
 	(junction
-		(at 48.26 157.48)
+		(at 191.77 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2ef1a767-df76-46c1-9755-5c51b517f708")
+		(uuid "56629977-d2fa-466d-b8ca-6380dc883741")
 	)
 	(junction
-		(at 95.25 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4beb3392-10c1-4d5b-be1b-1b23dbe5a8bb")
-	)
-	(junction
-		(at 46.99 88.9)
+		(at 16.51 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6380a3f7-b2e8-4e18-88a7-53aa603b4dbc")
 	)
 	(junction
-		(at 46.99 96.52)
+		(at 267.97 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70f67eeb-2dc5-4530-91af-b5482bb89839")
+	)
+	(junction
+		(at 278.13 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84d6e8a1-588f-44b1-9fa9-c4d98a8c582d")
+	)
+	(junction
+		(at 16.51 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d227b51-3bca-4a8f-b37a-d550bf576a4c")
 	)
 	(junction
-		(at 76.2 132.08)
+		(at 165.1 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ea019ce2-cba4-4157-8361-bbd2c7e65a17")
+		(uuid "afde0157-3873-48c1-bc05-64619b6ed992")
+	)
+	(junction
+		(at 267.97 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0d74ca4-063f-4480-82b6-fd47951f3c0e")
+	)
+	(junction
+		(at 210.82 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd45c037-9731-43b2-954f-257a1a5f56f6")
+	)
+	(junction
+		(at 146.05 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5e05b64-b01c-48c8-8a75-b729aeafcb4e")
 	)
 	(wire
 		(pts
-			(xy 48.26 154.94) (xy 48.26 157.48)
+			(xy 210.82 53.34) (xy 210.82 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1181d147-50b0-4b34-b298-5dbed10e80b8")
+		(uuid "15180774-be8d-4337-8a1c-ef775f5d8c06")
 	)
 	(wire
 		(pts
-			(xy 64.77 157.48) (xy 67.31 157.48)
+			(xy 165.1 53.34) (xy 165.1 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12228df6-2182-4187-aa2d-80e0328100a9")
+		(uuid "160f5d2d-dd20-45b9-a197-3e9a1835d7be")
 	)
 	(wire
 		(pts
-			(xy 54.61 91.44) (xy 54.61 88.9)
+			(xy 24.13 53.34) (xy 24.13 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2303,67 +2999,77 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 139.7) (xy 95.25 139.7)
+			(xy 199.39 44.45) (xy 210.82 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17bb758b-7022-4987-863a-1392a910079e")
+		(uuid "1925ddb2-841a-43f6-bd52-6602ebd8268e")
 	)
 	(wire
 		(pts
-			(xy 55.88 165.1) (xy 67.31 165.1)
+			(xy 153.67 44.45) (xy 165.1 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2480e633-5ca0-4372-a6e7-1d242f281513")
+		(uuid "1d4fd0ea-2e86-4481-90dc-c1e5ceae766f")
 	)
 	(wire
 		(pts
-			(xy 92.71 132.08) (xy 95.25 132.08)
+			(xy 267.97 41.91) (xy 267.97 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4428a6ad-2202-4b5b-97eb-eb1b2bbf7707")
+		(uuid "2e1f90ae-922a-47e8-bcdc-d72ba3dab3fc")
 	)
 	(wire
 		(pts
-			(xy 48.26 157.48) (xy 48.26 160.02)
+			(xy 275.59 52.07) (xy 278.13 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46ed99c8-3476-407d-a6cb-1f4dbf9e2ec7")
+		(uuid "300c656c-045f-4b57-8e3f-9a9222e295a3")
 	)
 	(wire
 		(pts
-			(xy 67.31 157.48) (xy 67.31 165.1)
+			(xy 162.56 36.83) (xy 165.1 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e1a2893-d82e-4953-940f-fbf01b7de9e9")
+		(uuid "334f7fbe-9225-43fc-9eee-4f270118e54b")
 	)
 	(wire
 		(pts
-			(xy 85.09 132.08) (xy 76.2 132.08)
+			(xy 208.28 36.83) (xy 210.82 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "53fd489c-aa97-45ae-92f4-3eee2c3b4a89")
+		(uuid "41fabc7b-a9f3-4ba0-af2a-29864613951c")
 	)
 	(wire
 		(pts
-			(xy 54.61 88.9) (xy 46.99 88.9)
+			(xy 73.66 68.58) (xy 82.55 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "548e0627-3a57-4057-9bd8-bdef28557969")
+	)
+	(wire
+		(pts
+			(xy 24.13 50.8) (xy 16.51 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2373,57 +3079,147 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 148.59) (xy 95.25 139.7)
+			(xy 270.51 41.91) (xy 267.97 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63e6b06d-5556-4d7a-a0d6-7c3411f503bc")
+		(uuid "5e4b9752-e723-4238-96a9-9b20ed2684e3")
 	)
 	(wire
 		(pts
-			(xy 67.31 173.99) (xy 67.31 165.1)
+			(xy 267.97 27.94) (xy 279.4 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d1f4377-2fd0-45ec-9fbe-e3cd2275e7ee")
+		(uuid "62275c3a-0a4f-40a9-8c17-a8a36bf26352")
 	)
 	(wire
 		(pts
-			(xy 132.08 102.87) (xy 129.54 102.87)
+			(xy 278.13 30.48) (xy 279.4 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "80a3d8c0-9cb7-48ba-af02-fdbb1aaf7481")
+		(uuid "647f2989-4a24-49e5-89a4-4f303d3d71e2")
 	)
 	(wire
 		(pts
-			(xy 76.2 132.08) (xy 76.2 134.62)
+			(xy 266.7 27.94) (xy 267.97 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c3ede24-e719-4798-bcbe-151464052ffc")
+		(uuid "690cb23c-db71-494e-a51e-7676e69d76af")
 	)
 	(wire
 		(pts
-			(xy 57.15 157.48) (xy 48.26 157.48)
+			(xy 73.66 63.5) (xy 82.55 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "955861c8-0b82-4d39-993e-6b62e658f1d1")
+		(uuid "6a7811a3-82ef-433d-808c-b5f820845f1d")
 	)
 	(wire
 		(pts
-			(xy 46.99 96.52) (xy 46.99 100.33)
+			(xy 154.94 36.83) (xy 146.05 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7426ff8e-e14b-49b7-9706-385f8f999182")
+	)
+	(wire
+		(pts
+			(xy 317.5 72.39) (xy 322.58 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76cf1ad6-61a2-4233-86d8-d4828258c4ed")
+	)
+	(wire
+		(pts
+			(xy 317.5 64.77) (xy 320.04 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e87cce-098a-46ad-b08d-c6ee50854a88")
+	)
+	(wire
+		(pts
+			(xy 270.51 52.07) (xy 267.97 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "853b1620-fa18-4664-b184-247ddbe5b77c")
+	)
+	(wire
+		(pts
+			(xy 374.65 72.39) (xy 379.73 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "881b611b-65dd-43e1-9db9-21abced65e40")
+	)
+	(wire
+		(pts
+			(xy 278.13 52.07) (xy 278.13 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e4b2a15-e3f6-43e7-b573-cb847de8d69e")
+	)
+	(wire
+		(pts
+			(xy 374.65 64.77) (xy 377.19 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97b8638d-bca8-4b1a-8686-78df926dd94d")
+	)
+	(wire
+		(pts
+			(xy 146.05 36.83) (xy 146.05 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2046c75-5e62-4fc0-b618-311432155ee9")
+	)
+	(wire
+		(pts
+			(xy 191.77 36.83) (xy 191.77 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4d7d5dc-fbdf-40ab-83bb-d500d6aa814a")
+	)
+	(wire
+		(pts
+			(xy 16.51 58.42) (xy 16.51 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2433,17 +3229,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 107.95) (xy 116.84 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad2ebe2a-0a8d-4ef2-8c14-deb60332c74f")
-	)
-	(wire
-		(pts
-			(xy 46.99 83.82) (xy 46.99 88.9)
+			(xy 16.51 45.72) (xy 16.51 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2453,17 +3239,47 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 132.08) (xy 95.25 139.7)
+			(xy 278.13 41.91) (xy 278.13 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b027188e-6e61-411d-8ef4-6f3ac56b5024")
+		(uuid "b2b09d54-bdbd-4a4b-b29f-0eb8d613063f")
 	)
 	(wire
 		(pts
-			(xy 59.69 91.44) (xy 54.61 91.44)
+			(xy 276.86 30.48) (xy 278.13 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c07a5cb6-b01b-427d-b1b6-ac5a7c7c5dc0")
+	)
+	(wire
+		(pts
+			(xy 146.05 34.29) (xy 146.05 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1312272-5f86-4197-8881-631bc99a9b09")
+	)
+	(wire
+		(pts
+			(xy 275.59 41.91) (xy 278.13 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c201203a-56a6-48d0-bda5-6d32326ed141")
+	)
+	(wire
+		(pts
+			(xy 29.21 53.34) (xy 24.13 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2473,17 +3289,57 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 106.68) (xy 116.84 105.41)
+			(xy 317.5 77.47) (xy 325.12 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d38fda4e-be58-4eec-8666-7b384abb8471")
+		(uuid "d6de71f2-6fa7-439d-bff5-05b9ac604ead")
 	)
 	(wire
 		(pts
-			(xy 46.99 96.52) (xy 59.69 96.52)
+			(xy 191.77 34.29) (xy 191.77 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d790c660-785c-47fe-bbff-3f430e3cc60e")
+	)
+	(wire
+		(pts
+			(xy 200.66 36.83) (xy 191.77 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd82c388-9802-475f-b80c-593c2a98d427")
+	)
+	(wire
+		(pts
+			(xy 210.82 36.83) (xy 210.82 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfccfdcd-da49-4aff-a9e0-ef027aebddb6")
+	)
+	(wire
+		(pts
+			(xy 267.97 41.91) (xy 267.97 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e540f866-136f-4847-9f56-8f4daacfddeb")
+	)
+	(wire
+		(pts
+			(xy 16.51 58.42) (xy 29.21 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2493,16 +3349,82 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 129.54) (xy 76.2 132.08)
+			(xy 165.1 36.83) (xy 165.1 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb659d45-790c-4a59-a294-6505be659d50")
+		(uuid "f7cff31b-e3a5-44be-b45c-18b26e20bf60")
+	)
+	(wire
+		(pts
+			(xy 374.65 77.47) (xy 382.27 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd80f92d-93b6-47f5-8308-454e101f12b0")
+	)
+	(rectangle
+		(start 125.73 17.78)
+		(end 228.6 73.66)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 38509606-e70b-4802-bbb0-758657419da8)
+	)
+	(rectangle
+		(start 247.904 14.986)
+		(end 395.732 109.728)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f44018fd-7371-471b-a20e-6ce13ef04f85)
+	)
+	(text "(K:) Provide 2x External Load Switching at 1A each (High Side connected to 5V)"
+		(exclude_from_sim no)
+		(at 174.752 22.352 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "13368fc1-c8ee-4818-8b9d-699bed94475a")
+	)
+	(label "CTRL_EXT_LOAD1"
+		(at 149.86 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "02d7df68-3cd1-4c56-81fe-916f5dad5582")
+	)
+	(label "Motor1_A_OUT"
+		(at 379.73 72.39 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03223b8f-acd0-4c1d-86f3-443d5643a95f")
 	)
 	(label "3V3_OUT"
-		(at 69.85 83.82 90)
+		(at 39.37 45.72 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2512,19 +3434,19 @@
 		)
 		(uuid "062b1782-9ea7-4cdb-9295-13ae3e68849e")
 	)
-	(label "PC9 {slash} TIM3C4"
-		(at 129.54 115.57 0)
+	(label "CTRL_EXT_LOAD2"
+		(at 82.55 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "0c4a0221-ded0-4435-a27e-8f7a62cd7d69")
+		(uuid "093137a1-7b33-43d3-a3ca-1d4351f2ffd5")
 	)
-	(label "Motor2_A_OUT"
-		(at 129.54 80.01 0)
+	(label "Motor1_B_OUT"
+		(at 382.27 77.47 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2532,21 +3454,32 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "107d4368-9075-4ba5-8e03-700c628cdd8d")
+		(uuid "09fff3b4-dddb-4983-8547-74cae67a8202")
+	)
+	(label "USART2_TX"
+		(at 95.25 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0cbf8071-d43f-492f-a084-0a6adf94ca1d")
+	)
+	(label "EXT_LOAD1_OUT"
+		(at 73.66 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0d44c9a9-c0ac-4b79-bd09-5ca44192c0f9")
 	)
 	(label "Motor4_B_OUT"
-		(at 116.84 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "12d31807-0570-4988-9e5b-ba566e44e35e")
-	)
-	(label "HV"
-		(at 129.54 105.41 0)
+		(at 325.12 77.47 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2554,10 +3487,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1432abe5-0079-4a24-ba36-98889653b79b")
+		(uuid "0dc217eb-df41-4b88-b149-5f82a572be22")
 	)
-	(label "PD11"
-		(at 116.84 110.49 180)
+	(label "CTRL_EXT_LOAD2"
+		(at 195.58 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2565,10 +3498,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "3370b39c-050c-4965-add8-7d5e14c5c596")
+		(uuid "0f97ad30-aa6b-44bc-b85a-577858a3a653")
 	)
-	(label "PD14 {slash} TIM4C3"
-		(at 129.54 87.63 0)
+	(label "Motor3_CTRL2"
+		(at 95.25 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2576,10 +3509,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "4d228054-439a-4255-9cce-94347a032828")
+		(uuid "0fe4daa9-2d20-4da4-b05a-91603e500a53")
 	)
-	(label "PB4"
-		(at 116.84 95.25 180)
+	(label "EXT_LOAD2_OUT"
+		(at 82.55 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2587,10 +3520,241 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "4dca19b4-2bc1-4e5d-90d3-085b379e0b12")
+		(uuid "13dcde9d-5cdb-4ce0-bf35-3626587d47dd")
+	)
+	(label "Motor3_CTRL1"
+		(at 344.17 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1463a22f-60c2-421d-a9f5-91e3f7161e27")
+	)
+	(label "Motor1_CTRL2"
+		(at 344.17 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1cd16bbd-261c-4d59-8b36-6bdf1fb92e28")
+	)
+	(label "MotorR1_CTRL1"
+		(at 95.25 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fefb255-7366-4a2c-8571-19c83a4c7005")
+	)
+	(label "Motor2_CTRL1"
+		(at 95.25 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26d30e14-fa0d-458e-8fc9-d61b5bce807a")
+	)
+	(label "Motor4_CTRL2"
+		(at 287.02 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "294cf5aa-c7f7-4e00-9333-b4ba9a557f7f")
+	)
+	(label "Motor4_A_OUT"
+		(at 82.55 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a1ee274-435c-4aab-9347-b0e1fd3366e8")
+	)
+	(label "Motor3_CTRL1"
+		(at 95.25 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e4bf15b-c131-4c48-ac1a-c04596fadd10")
+	)
+	(label "BAT+"
+		(at 304.8 44.45 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30839e01-2ad4-4978-9e03-225e8fbf21ae")
+	)
+	(label "BAT+"
+		(at 367.03 44.45 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33097fd8-f1f2-470b-affb-4b451dfe1cdd")
+	)
+	(label "Motor1_CTRL2"
+		(at 344.17 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "34115fb9-1cb2-482a-86a8-ee4b93e576c7")
+	)
+	(label "Motor3_CTRL2"
+		(at 344.17 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "370b75b5-3b5f-4d71-adb7-d291a1fc1935")
+	)
+	(label "Motor2_CTRL2"
+		(at 287.02 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3b5e149d-b444-496b-a8fe-a90058f94c6f")
+	)
+	(label "Motor3_B_OUT"
+		(at 377.19 64.77 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40eb06a9-4c55-4b7e-ae4b-b1354792ec53")
+	)
+	(label "Motor1_A_OUT"
+		(at 95.25 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "414ef552-8951-40b8-a805-2621f6ce9d71")
+	)
+	(label "BAT+"
+		(at 307.34 44.45 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42ca6f10-b0d6-4667-b2d8-d89a41fbbeb4")
+	)
+	(label "Motor2_A_OUT"
+		(at 95.25 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b456435-fbdf-4fe7-b03c-36f3221d4913")
+	)
+	(label "5V_OUT"
+		(at 146.05 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5055ece9-f05c-4b71-97ac-6d02f6d35076")
+	)
+	(label "3V3_OUT"
+		(at 294.64 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "52fec2b9-3278-4273-8612-7faffe537775")
+	)
+	(label "Motor2_CTRL2"
+		(at 95.25 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54f23aad-44b1-4562-827a-9bdccc2d8810")
+	)
+	(label "BAT+"
+		(at 361.95 44.45 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5741f0fc-8af3-4208-b31b-015fe5195cf2")
+	)
+	(label "BAT+"
+		(at 364.49 44.45 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a82439a-a701-4d52-a20a-e9be9c5d07df")
 	)
 	(label "V_Switch"
-		(at 46.99 83.82 0)
+		(at 16.51 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2600,8 +3764,8 @@
 		)
 		(uuid "5af071ff-bb47-4171-bfe5-44252b12d64d")
 	)
-	(label "PC6 {slash} TIM3C1"
-		(at 129.54 107.95 0)
+	(label "Motor4_CTRL1"
+		(at 95.25 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2609,32 +3773,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "606f71c8-7361-4d40-aa7e-c9a0a79e5769")
+		(uuid "6a2d5cee-b2f2-4c1e-8bec-9a097b720d6d")
 	)
-	(label "PD2"
-		(at 116.84 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "631919c9-ed70-4f7f-9545-5c14dc35cf12")
-	)
-	(label "MOTOR1_B_OUT"
-		(at 116.84 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "633a5d6a-12a7-4ef8-9cbc-53f879538a5e")
-	)
-	(label "PD5 {slash} RESV"
-		(at 129.54 92.71 0)
+	(label "Motor2_B_OUT"
+		(at 320.04 64.77 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2642,10 +3784,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "66d914df-f517-4b42-bcfc-99338aeff107")
+		(uuid "6f1ef95e-08a0-456c-ada8-dbfe11c20cab")
 	)
-	(label "PD13 {slash} TIM4C2"
-		(at 129.54 85.09 0)
+	(label "HV"
+		(at 95.25 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2653,10 +3795,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6f8221b3-a26f-4aa9-8eb2-b5beda9d66de")
+		(uuid "6fa46a5d-2ecc-4b15-9237-753586e3daae")
 	)
-	(label "Motor4_A_OUT"
-		(at 116.84 82.55 180)
+	(label "Motor3_CTRL2"
+		(at 344.17 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2664,10 +3806,43 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "7ba45620-768b-4d42-a11e-d021e759d1d3")
+		(uuid "6ffe1fd1-5491-4621-9cb1-7aa9cacbb12a")
 	)
 	(label "3V3_OUT"
-		(at 129.54 100.33 0)
+		(at 351.79 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "753bc8bc-b5d3-489b-a5c1-da7d57ecf19e")
+	)
+	(label "EXT_LOAD1_OUT"
+		(at 146.05 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76252b04-f424-419a-a144-61fb30531507")
+	)
+	(label "Motor4_CTRL2"
+		(at 95.25 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ca41069-1b37-4a73-8fe0-c1adef87164b")
+	)
+	(label "3V3_OUT"
+		(at 95.25 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2677,8 +3852,8 @@
 		)
 		(uuid "7e7e9692-22fc-43e6-b102-1f9d0df36ca3")
 	)
-	(label "MOTOR3_A_OUT"
-		(at 116.84 113.03 180)
+	(label "Motor4_B_OUT"
+		(at 82.55 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2686,10 +3861,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "8ec637b9-3a40-4eec-883f-ed76d325c49c")
+		(uuid "807f892c-367c-447b-b02c-c3be08cdc0d4")
 	)
-	(label "EXT_LOAD2_OUT"
-		(at 116.84 92.71 180)
+	(label "FAST_CHARGE_CTRL"
+		(at 82.55 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2697,10 +3872,65 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "9d3832ba-7500-4d2b-84bb-115b57dff8e9")
+		(uuid "839f5d1a-01da-4c5e-bde5-ba07231710dc")
+	)
+	(label "5V_OUT"
+		(at 95.25 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85e0f7cf-3d95-4cc9-a000-d62baea6a494")
+	)
+	(label "Motor1_CTRL2"
+		(at 95.25 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "894d4dd8-de2c-4b7e-9113-f83d5dc11d73")
+	)
+	(label "3V3_OUT"
+		(at 344.17 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a7994f5-489d-459c-afc9-885a459f1cb6")
+	)
+	(label "5V_OUT"
+		(at 191.77 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d129b26-66bb-4755-ba1d-31f09aefcbd6")
+	)
+	(label "test"
+		(at 24.13 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9db4c68b-4f45-4b19-84eb-ef480b923bf2")
 	)
 	(label "SCL"
-		(at 129.54 97.79 0)
+		(at 95.25 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2710,8 +3940,8 @@
 		)
 		(uuid "9f22d888-202f-40bd-8887-6843531cee8f")
 	)
-	(label "MOTOR1_A_OUT"
-		(at 129.54 118.11 0)
+	(label "BAT+"
+		(at 309.88 44.45 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2719,32 +3949,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a2201c29-8e23-4782-bbcd-6b64cf3747e8")
+		(uuid "a13e897b-7541-438e-93b1-dbac81666ecd")
 	)
-	(label "PD15 {slash} TIM4C4"
-		(at 129.54 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a44be91b-6d60-4799-93e3-963ec1606e1b")
-	)
-	(label "EXT_LOAD1_OUT"
-		(at 48.26 170.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a4773e3d-b40e-4acf-881c-29718d9934af")
-	)
-	(label "PD2"
-		(at 80.01 153.67 180)
+	(label "Motor2_B_OUT"
+		(at 82.55 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2752,43 +3960,87 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "a7357ceb-41f3-4000-911e-1c2503e19b3a")
-	)
-	(label "PC8 {slash} TIM3C3"
-		(at 129.54 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a73a3eb7-2569-4603-9986-c642d9d928be")
-	)
-	(label "PD6 {slash} RESV"
-		(at 116.84 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b613d49e-dd6c-47b5-8373-a9b75e6b1243")
-	)
-	(label "EXT_LOAD1_OUT"
-		(at 116.84 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bfb342a7-c342-4164-91b1-46fbc7b6be2e")
+		(uuid "a172ef2f-ec47-470c-a09c-bf69b8dd2328")
 	)
 	(label "BAT+"
-		(at 129.54 95.25 0)
+		(at 266.7 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a4edbda3-74b3-4740-a7aa-7451bdd3c884")
+	)
+	(label "EXT_LOAD2_OUT"
+		(at 191.77 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a639fa26-008b-4c52-b59f-6d33ea431629")
+	)
+	(label "Motor1_CTRL1"
+		(at 344.17 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa3fb11c-b5e1-4980-b576-7edef5bc28f6")
+	)
+	(label "CTRL_EXT_LOAD1"
+		(at 73.66 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b31ed260-c039-40d0-8815-05fb42a913fd")
+	)
+	(label "Motor3_A_OUT"
+		(at 374.65 59.69 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b68767de-674c-49a3-8b6b-083c9a6f00bf")
+	)
+	(label "Motor4_CTRL2"
+		(at 287.02 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0f4c40c-312f-40b8-9823-5a666f44f777")
+	)
+	(label "3V3_OUT"
+		(at 287.02 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c3cbf49c-43bc-47dd-af4f-db342316ecf1")
+	)
+	(label "BAT+"
+		(at 95.25 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2798,30 +4050,8 @@
 		)
 		(uuid "c7aa94b8-0b8c-4bb5-8522-2c925294fec5")
 	)
-	(label "PD7 {slash} RESV"
-		(at 116.84 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d5a40221-85ae-4152-8088-9ca3ccdf8727")
-	)
-	(label "Motor2_B_OUT"
-		(at 116.84 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d74d6b6f-89e0-472a-92b9-7e92c73e549e")
-	)
-	(label "PC7 {slash} TIM3C2"
-		(at 129.54 110.49 0)
+	(label "Motor2_A_OUT"
+		(at 317.5 59.69 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2829,10 +4059,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "da036128-8cc7-49b5-9eee-4b6883f67976")
+		(uuid "cc7c9a0f-c0ea-47bd-ad75-1bdd20d6caeb")
 	)
-	(label "MOTOR3_B_OUT"
-		(at 116.84 115.57 180)
+	(label "Motor3_A_OUT"
+		(at 82.55 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2840,10 +4070,43 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "e02f61f7-1e8a-487b-b570-c36be918c561")
+		(uuid "ce4e6162-856e-4f7c-94e4-df18649acb7f")
+	)
+	(label "Motor4_CTRL1"
+		(at 287.02 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d22012d6-624c-4018-bc27-3906dd20d6b3")
+	)
+	(label "USART2_RX"
+		(at 82.55 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d5f20921-ec87-4b49-a04a-16358a382dcc")
+	)
+	(label "Motor2_CTRL2"
+		(at 287.02 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d68dd861-6930-4856-b044-61d6fc57a38f")
 	)
 	(label "3V3_OUT"
-		(at 80.01 96.52 0)
+		(at 49.53 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2854,7 +4117,7 @@
 		(uuid "e281203e-a061-4d98-83fa-78b200d82459")
 	)
 	(label "SDA"
-		(at 80.01 88.9 0)
+		(at 49.53 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2864,19 +4127,8 @@
 		)
 		(uuid "e2d773de-f9b5-4a3a-927b-9f670afa9196")
 	)
-	(label "EXT_LOAD2_OUT"
-		(at 76.2 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e413886f-2d88-4379-b2c4-f0a177baeb08")
-	)
 	(label "SCL"
-		(at 80.01 91.44 0)
+		(at 49.53 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2886,8 +4138,8 @@
 		)
 		(uuid "e643db11-02e4-4c3a-ad71-ddec83a17c5a")
 	)
-	(label "PD11"
-		(at 52.07 179.07 180)
+	(label "Motor2_CTRL1"
+		(at 287.02 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2895,21 +4147,32 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "ea07ca65-9efe-4690-bf57-aaf085d05143")
+		(uuid "f3389345-25cf-4233-b712-77aba60ef889")
 	)
-	(label "PD12 {slash} TIM4C1"
-		(at 129.54 82.55 0)
+	(label "Motor3_B_OUT"
+		(at 82.55 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "f84626ee-4bb5-4acf-a850-4204d73a9549")
+		(uuid "fb424f32-deaf-4d72-8d37-7bbe242182b9")
+	)
+	(label "Motor1_B_OUT"
+		(at 82.55 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fc9c1adb-8789-4b6a-9444-accf929159c4")
 	)
 	(label "SDA"
-		(at 116.84 100.33 180)
+		(at 82.55 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2919,9 +4182,156 @@
 		)
 		(uuid "fe0b0e8c-d8ea-42a3-861b-c2d92025e716")
 	)
+	(label "Motor4_A_OUT"
+		(at 322.58 72.39 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe63f628-bbd6-4c31-9023-ae1f6cfa8984")
+	)
+	(symbol
+		(lib_id "Driver_Motor:TB6612FNG")
+		(at 359.41 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "019e4ca2-c428-4b06-99e0-db07b0faa2a0")
+		(property "Reference" "U3"
+			(at 369.2241 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TB6612FNG"
+			(at 369.2241 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
+			(at 392.43 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/us/product/linear/motordriver/detail.TB6612FNG.html"
+			(at 370.84 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Driver IC for Dual DC motor, SSOP-24"
+			(at 359.41 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "24f59cf6-995f-4bf9-8f3e-7cc153cd4524")
+		)
+		(pin "18"
+			(uuid "737d3d70-9820-46c6-bcc4-f27831f9ab0c")
+		)
+		(pin "2"
+			(uuid "1925c751-51ae-448d-9fdc-a59f92e964eb")
+		)
+		(pin "20"
+			(uuid "66e5a066-05c9-44f5-8a83-f277d744a9b0")
+		)
+		(pin "4"
+			(uuid "bfc144d2-53a6-49b8-93ed-8b91aee4d161")
+		)
+		(pin "13"
+			(uuid "358a5419-a671-4813-a8e9-358f238c460b")
+		)
+		(pin "14"
+			(uuid "e1826c05-3743-4771-9b57-89df59d6c992")
+		)
+		(pin "15"
+			(uuid "83a49792-a8a8-49ce-9aeb-a5478e0919f0")
+		)
+		(pin "16"
+			(uuid "c0bb8d58-b790-4854-87fa-f58e7ca7733a")
+		)
+		(pin "3"
+			(uuid "89a6420f-56a6-4977-a1f1-5357a97a896f")
+		)
+		(pin "12"
+			(uuid "e8a023b6-1f88-4527-b427-1d64960abc6b")
+		)
+		(pin "5"
+			(uuid "5dc20509-047a-4e4c-bdf5-b35b1ecba68d")
+		)
+		(pin "6"
+			(uuid "21942b0d-39af-44b3-b483-e9fb587b573d")
+		)
+		(pin "23"
+			(uuid "428a8c98-1960-4b67-9726-34b84b41df92")
+		)
+		(pin "8"
+			(uuid "99fca61c-553c-40f2-95c9-7e36b37313bb")
+		)
+		(pin "9"
+			(uuid "daa0a831-49dc-4e6b-ae3b-230a77dd1b84")
+		)
+		(pin "24"
+			(uuid "4bbb682d-1ac2-46cc-a076-d2bf312d33a0")
+		)
+		(pin "22"
+			(uuid "a384e031-0348-423c-92d0-397ac951ca2c")
+		)
+		(pin "19"
+			(uuid "6b6eb0d0-5972-4e4e-abfb-23201f326c7f")
+		)
+		(pin "1"
+			(uuid "edb7d3ec-9a5f-48d1-89ff-6ed080d645dc")
+		)
+		(pin "11"
+			(uuid "6c3ce2e2-62c8-4a4a-a28a-2e62638836b9")
+		)
+		(pin "10"
+			(uuid "0f2c92e9-cd12-4d49-b126-097ab6f3462c")
+		)
+		(pin "17"
+			(uuid "12362950-54a9-41b5-916c-f1d2da7cbbcb")
+		)
+		(pin "21"
+			(uuid "31d0007a-bbeb-4617-8e2e-6ccb69be5ade")
+		)
+		(instances
+			(project "Micromouse Power Subsystem"
+				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 102.87 270)
+		(at 82.55 60.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2930,7 +4340,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a757101-6f71-43bf-9821-9923a727c87b")
 		(property "Reference" "#PWR02"
-			(at 110.49 102.87 0)
+			(at 76.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2939,7 +4349,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 103.505 90)
+			(at 78.74 61.595 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2948,7 +4358,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 102.87 0)
+			(at 82.55 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2957,7 +4367,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 102.87 0)
+			(at 82.55 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2966,7 +4376,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 102.87 0)
+			(at 82.55 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2987,84 +4397,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 132.08 102.87 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c0e3a4e-4138-454c-8862-07b2cd887328")
-		(property "Reference" "#PWR06"
-			(at 128.27 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 135.89 102.8699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 132.08 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0a79cacf-3c46-47f7-b049-dba379e80f10")
-		)
-		(instances
-			(project "Micromouse Power Subsystem"
-				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 67.31 184.15 0)
+		(at 361.95 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0c81b49b-7a1e-4978-afeb-0781a708970d")
-		(property "Reference" "#PWR011"
-			(at 67.31 190.5 0)
+		(uuid "0b98b18f-41a3-446f-b66a-c5761ccd1356")
+		(property "Reference" "#PWR013"
+			(at 361.95 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3073,7 +4416,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 189.23 0)
+			(at 361.95 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3081,7 +4424,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 184.15 0)
+			(at 361.95 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3090,7 +4433,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 184.15 0)
+			(at 361.95 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3099,7 +4442,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 184.15 0)
+			(at 361.95 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3108,12 +4451,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "00816588-1690-4c6a-97aa-e8003074e850")
+			(uuid "b51c0d67-e27d-42d0-bdd7-8d7a16cff022")
 		)
 		(instances
 			(project "Micromouse Power Subsystem"
 				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3121,225 +4464,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 107.95 270)
+		(at 304.8 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1b6dc302-6d93-4916-ad7b-4c3ec018e7bd")
-		(property "Reference" "#PWR012"
-			(at 105.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 107.95 108.585 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3310d7f0-3087-4582-bf41-edc4c3ad7ec4")
-		)
-		(instances
-			(project "Micromouse Power Subsystem"
-				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 92.71 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1bdb8a3d-566a-41f5-8d34-569c046e287c")
-		(property "Reference" "Q2"
-			(at 97.79 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 97.79 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 97.79 155.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 92.71 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 92.71 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bfd91f6a-717f-48dd-b40d-d13a6fe0a640")
-		)
-		(pin "1"
-			(uuid "b9cd6ca0-171a-4389-8ae7-bdf2c66eb443")
-		)
-		(pin "3"
-			(uuid "f985c684-2d76-49a4-abcd-5ab2c917f988")
-		)
-		(instances
-			(project "Micromouse Power Subsystem"
-				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 81.28 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2164c9ea-8460-474b-a499-200d0a460ee5")
-		(property "Reference" "#FLG02"
-			(at 81.28 56.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 81.28 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 81.28 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f4904e27-e3c4-40f0-bc73-60c4e0f16317")
-		)
-		(instances
-			(project "Micromouse Power Subsystem"
-				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 76.2 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "221fa4a6-a013-495f-9a88-eeddc81c7eb8")
+		(uuid "30bb4aa1-8416-44d8-b1bb-8d6a42f1f756")
 		(property "Reference" "#PWR07"
-			(at 76.2 133.35 0)
+			(at 304.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3347,8 +4481,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 76.2 124.46 0)
+		(property "Value" "GND"
+			(at 304.8 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3356,7 +4490,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 129.54 0)
+			(at 304.8 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3365,7 +4499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 129.54 0)
+			(at 304.8 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3373,8 +4507,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 76.2 129.54 0)
+		(property "Description" ""
+			(at 304.8 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3383,7 +4517,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "844f0b83-1e4f-4b75-9eb7-97b19df93b2b")
+			(uuid "f62bd40d-88f5-43f9-8712-352fcde39ec2")
 		)
 		(instances
 			(project "Micromouse Power Subsystem"
@@ -3395,141 +4529,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 81.28 58.42 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ddddc97-3b8a-43a7-8d42-76464fe559c5")
-		(property "Reference" "#PWR08"
-			(at 81.28 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 81.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 81.28 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ead84f9-d06a-4b52-9003-f6e4d76e806e")
-		)
-		(instances
-			(project "Micromouse Power Subsystem"
-				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 88.9 132.08 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "33f5ca75-c732-456d-939a-28d0abd6633a")
-		(property "Reference" "R2"
-			(at 88.9 127.254 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 88.9 129.794 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 89.154 131.064 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 88.9 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41e8e6b8-ca5b-4a70-bac0-aa853447961f")
-		)
-		(pin "2"
-			(uuid "9b0b763b-4743-4e34-a917-d16f3adf1dc3")
-		)
-		(instances
-			(project "Micromouse Power Subsystem"
-				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Sensor_Energy:INA219AxD")
-		(at 69.85 93.98 0)
+		(at 39.37 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3538,7 +4539,7 @@
 		(fields_autoplaced yes)
 		(uuid "3fc7f17c-289e-4884-bb6f-934ddc51b91b")
 		(property "Reference" "U1"
-			(at 71.8059 82.55 0)
+			(at 41.3259 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,7 +4548,7 @@
 			)
 		)
 		(property "Value" "INA219AxD"
-			(at 71.8059 85.09 0)
+			(at 41.3259 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3556,7 +4557,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 90.17 102.87 0)
+			(at 59.69 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3565,7 +4566,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina219.pdf"
-			(at 78.74 96.52 0)
+			(at 48.26 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,7 +4575,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 93.98 0)
+			(at 39.37 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3616,169 +4617,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 60.96 157.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6300d3e7-29e3-4a43-a332-ba4292f673bd")
-		(property "Reference" "R5"
-			(at 60.96 152.654 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 60.96 155.194 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 61.214 156.464 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 60.96 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "725afe42-b2dd-4a68-b23a-e24c90b439b8")
-		)
-		(pin "2"
-			(uuid "91468940-fd3c-4e99-bd0c-74e65872b6a1")
-		)
-		(instances
-			(project "Micromouse Power Subsystem"
-				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 83.82 153.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6cb800c4-e176-4c51-8d64-808f352c7d0d")
-		(property "Reference" "R3"
-			(at 83.82 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 83.82 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 84.074 152.654 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 83.82 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d8ffdce-477f-4275-9270-03a6ec625330")
-		)
-		(pin "2"
-			(uuid "c23fd20f-7494-4b4c-a4d4-355aaf0d7fb3")
-		)
-		(instances
-			(project "Micromouse Power Subsystem"
-				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 50.8 165.1 180)
+		(lib_id "power:GND")
+		(at 309.88 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "747b9dea-4126-462e-b3fc-60c6b6d37681")
-		(property "Reference" "Q(SI2301)3"
-			(at 44.45 163.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 44.45 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 167.64 0)
+		(uuid "4426ee2a-5604-4e0c-8e1a-e75e3614a09a")
+		(property "Reference" "#PWR09"
+			(at 309.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,90 +4635,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 50.8 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 50.8 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 50.8 147.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 50.8 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 50.8 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4db89323-65eb-47bf-9a2a-a0e92fd1e8d7")
-		)
-		(pin "2"
-			(uuid "dcddb401-3839-42e0-a766-29798568f718")
-		)
-		(pin "3"
-			(uuid "755854a6-d8d9-4041-98d9-83575cf118d8")
-		)
-		(instances
-			(project "Micromouse Power Subsystem"
-				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
-					(reference "Q(SI2301)3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 68.58 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b6529be-2cad-4e0c-a96a-eae4ad8b7e28")
-		(property "Reference" "#FLG01"
-			(at 68.58 56.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 68.58 54.61 0)
+		(property "Value" "GND"
+			(at 309.88 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3877,7 +4644,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 58.42 0)
+			(at 309.88 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3885,8 +4652,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 68.58 58.42 0)
+		(property "Datasheet" ""
+			(at 309.88 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3895,7 +4662,340 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 58.42 0)
+			(at 309.88 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7f8b4b4-e3a0-42b9-bffd-4685578fbb9e")
+		)
+		(instances
+			(project "Micromouse Power Subsystem"
+				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 351.79 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "568596bc-4dbf-454f-821c-939ba79e2808")
+		(property "Reference" "#PWR012"
+			(at 351.79 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 351.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 351.79 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "998fd84c-faeb-4e0b-8d7a-23a96e6e9150")
+		)
+		(instances
+			(project "Micromouse Power Subsystem"
+				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5835885a-8c59-4863-9fdb-e8a4ec72ffdd")
+		(property "Reference" "#PWR010"
+			(at 210.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efeee891-e44d-48ea-a0ee-0c348bae36df")
+		)
+		(instances
+			(project "Micromouse Power Subsystem"
+				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 273.05 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58ffd709-ad14-4e31-ba9f-744e1083aaef")
+		(property "Reference" "C2"
+			(at 273.0563 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1µ"
+			(at 273.0563 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 273.05 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4945d4a4-9e87-4b84-b1b5-23e47090ae39")
+		)
+		(pin "1"
+			(uuid "1dce5c02-70ca-432e-8875-f06db29f8d98")
+		)
+		(instances
+			(project "Micromouse Power Subsystem"
+				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 153.67 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "704678fa-ce17-4637-a698-99d316f13e41")
+		(property "Reference" "R2"
+			(at 153.67 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 153.67 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.924 57.404 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 153.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "477a7dc6-0c04-4ddf-b83f-a43c4a01f569")
+		)
+		(pin "2"
+			(uuid "6870bdf4-0de4-4480-99f1-6b9bec4a8724")
+		)
+		(instances
+			(project "Micromouse Power Subsystem"
+				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 38.1 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b6529be-2cad-4e0c-a96a-eae4ad8b7e28")
+		(property "Reference" "#FLG01"
+			(at 38.1 18.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 38.1 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3916,150 +5016,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 55.88 179.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7c3d8000-e65a-49f8-a617-5acb2c654843")
-		(property "Reference" "R4"
-			(at 55.88 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 55.88 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 56.134 178.054 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 55.88 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a9aa454-d126-4174-8a8e-5e758802cad2")
-		)
-		(pin "2"
-			(uuid "3f2a7675-2f34-49d3-8bbb-ba1783339abe")
-		)
-		(instances
-			(project "Micromouse Power Subsystem"
-				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 48.26 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82af4e1c-e62d-43b7-9562-090b63c6f706")
-		(property "Reference" "#PWR010"
-			(at 48.26 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 48.26 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 48.26 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "015a36a1-d921-4ecb-bd70-c6e54b490d25")
-		)
-		(instances
-			(project "Micromouse Power Subsystem"
-				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:2N3904")
-		(at 64.77 179.07 0)
+		(at 162.56 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8c211cb4-6dc7-4572-8de4-d0a5c5cf85c5")
-		(property "Reference" "Q4"
-			(at 69.85 177.7999 0)
+		(uuid "88dc0d63-bb3e-4255-b896-6353b7a80ecb")
+		(property "Reference" "Q1"
+			(at 167.64 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4068,7 +5035,7 @@
 			)
 		)
 		(property "Value" "2N3904"
-			(at 69.85 180.3399 0)
+			(at 167.64 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4077,7 +5044,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 69.85 180.975 0)
+			(at 167.64 60.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4088,7 +5055,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 64.77 179.07 0)
+			(at 162.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,7 +5065,7 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 64.77 179.07 0)
+			(at 162.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4107,18 +5074,118 @@
 			)
 		)
 		(pin "2"
-			(uuid "b9a5581c-163e-4996-99a3-56d1f16af002")
+			(uuid "0fa43a4c-68ac-4d38-a477-fc0683a126de")
 		)
 		(pin "1"
-			(uuid "1993857e-4838-4213-a9b4-06faac49976d")
+			(uuid "09f3adaf-cd8b-420e-8d11-b3eaf5744e2c")
 		)
 		(pin "3"
-			(uuid "7a608a85-f847-4981-b67c-b5122a17644d")
+			(uuid "d4cdd750-ccb1-4a6c-a296-984695497796")
 		)
 		(instances
 			(project "Micromouse Power Subsystem"
 				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
-					(reference "Q4")
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 148.59 44.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88e5fd1e-ad69-44d1-a297-559a4ab8276d")
+		(property "Reference" "Q(SI2301)1"
+			(at 142.24 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 142.24 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 148.59 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 148.59 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 148.59 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 148.59 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 148.59 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8def49d-b9f9-4725-8a3b-a547b53d1c55")
+		)
+		(pin "2"
+			(uuid "10821451-720f-4c11-87ad-7a77b0dcc152")
+		)
+		(pin "3"
+			(uuid "4448f154-25af-42aa-a53d-67204866a6ab")
+		)
+		(instances
+			(project "Micromouse Power Subsystem"
+				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
+					(reference "Q(SI2301)1")
 					(unit 1)
 				)
 			)
@@ -4126,16 +5193,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 158.75 0)
+		(at 82.55 66.04 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a25f8b47-8884-4f1d-bb4c-a7920db7cb50")
-		(property "Reference" "#PWR09"
-			(at 95.25 165.1 0)
+		(uuid "9bfdc31d-bcc4-4ee2-82a7-20d5eacc28bf")
+		(property "Reference" "#PWR06"
+			(at 76.2 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4144,15 +5211,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 163.83 0)
+			(at 78.74 66.675 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 158.75 0)
+			(at 82.55 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4161,7 +5229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 158.75 0)
+			(at 82.55 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4170,7 +5238,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 158.75 0)
+			(at 82.55 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4179,45 +5247,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "e3565a40-66d3-457c-b4d2-cc6e0fea6c79")
+			(uuid "028337d0-746e-4699-8dda-aeb954250f4f")
 		)
 		(instances
 			(project "Micromouse Power Subsystem"
 				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
-					(reference "#PWR09")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x16_Odd_Even")
-		(at 121.92 97.79 0)
+		(lib_id "power:GND")
+		(at 294.64 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a99012e3-33fe-47a9-bb9a-43b7ec34b8d8")
-		(property "Reference" "J2"
-			(at 123.19 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x16_Odd_Even"
-			(at 123.19 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical"
-			(at 121.92 97.79 0)
+		(uuid "a15233a8-86a1-4c3e-b716-7c589775fd80")
+		(property "Reference" "#PWR011"
+			(at 294.64 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4225,8 +5277,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 121.92 97.79 0)
+		(property "Value" "GND"
+			(at 294.64 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4235,7 +5304,147 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 97.79 0)
+			(at 294.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "727c76ca-8e27-431b-8b77-3d188cbfee5f")
+		)
+		(instances
+			(project "Micromouse Power Subsystem"
+				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 208.28 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a82f286d-6cb2-403f-a017-c8d411984024")
+		(property "Reference" "Q2"
+			(at 213.36 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 213.36 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 213.36 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 208.28 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 208.28 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e2fb4e76-b6cb-4738-8cd4-6f8ee1ac46e0")
+		)
+		(pin "1"
+			(uuid "473a17d9-103a-4707-b1c7-1f17e736b178")
+		)
+		(pin "3"
+			(uuid "aae399b0-f2a3-4d31-a155-8eaf9e4da6aa")
+		)
+		(instances
+			(project "Micromouse Power Subsystem"
+				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x16_Odd_Even")
+		(at 87.63 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a99012e3-33fe-47a9-bb9a-43b7ec34b8d8")
+		(property "Reference" "J2"
+			(at 88.9 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x16_Odd_Even"
+			(at 88.9 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical"
+			(at 87.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4349,8 +5558,143 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 273.05 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9fba757-0cb2-4ab2-a11d-a5f49db39c42")
+		(property "Reference" "C1"
+			(at 273.0563 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100µ"
+			(at 273.0563 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 273.05 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4945d4a4-9e87-4b84-b1b5-23e47090ae3a")
+		)
+		(pin "1"
+			(uuid "1dce5c02-70ca-432e-8875-f06db29f8d99")
+		)
+		(instances
+			(project "Micromouse Power Subsystem"
+				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 158.75 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b097e93e-5a49-4203-8560-78b946574d64")
+		(property "Reference" "R3"
+			(at 158.75 32.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 158.75 34.544 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 159.004 35.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 158.75 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fb219ab-a79d-4768-a1b7-85e52ad44af9")
+		)
+		(pin "2"
+			(uuid "98cc6bf1-45ab-459a-80d6-acf4e769d862")
+		)
+		(instances
+			(project "Micromouse Power Subsystem"
+				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 69.85 104.14 0)
+		(at 39.37 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4359,7 +5703,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5d8f8b7-0cfd-45c5-9650-89d4f1430dfd")
 		(property "Reference" "#PWR01"
-			(at 69.85 110.49 0)
+			(at 39.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4368,7 +5712,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 109.22 0)
+			(at 39.37 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4376,7 +5720,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 104.14 0)
+			(at 39.37 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4385,7 +5729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 104.14 0)
+			(at 39.37 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4394,7 +5738,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 104.14 0)
+			(at 39.37 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4415,26 +5759,26 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 46.99 92.71 180)
+		(lib_id "power:GND")
+		(at 276.86 30.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d94e96bc-eb39-4322-ada8-3e233b20f091")
-		(property "Reference" "R1"
-			(at 49.53 92.075 0)
+		(uuid "d1a59066-69e5-4b62-8cf7-f6363fdd2c66")
+		(property "Reference" "#PWR015"
+			(at 270.51 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Value" "100m"
-			(at 49.53 94.615 0)
+		(property "Value" "GND"
+			(at 273.05 31.115 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,7 +5787,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.974 92.456 90)
+			(at 276.86 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4451,8 +5795,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 46.99 92.71 0)
+		(property "Datasheet" ""
+			(at 276.86 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4461,7 +5805,141 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 92.71 0)
+			(at 276.86 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36e40b51-977e-4df8-8c84-b041e1a889bf")
+		)
+		(instances
+			(project "Micromouse Power Subsystem"
+				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 204.47 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1bc8399-fcc9-4a24-b018-24a75d7dcc37")
+		(property "Reference" "R5"
+			(at 204.47 32.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 204.47 34.544 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.724 35.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 204.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ea4fec8-91dd-469b-bd2f-c16d333f357a")
+		)
+		(pin "2"
+			(uuid "43653f6a-de31-4d7a-96a5-448c51c70e9d")
+		)
+		(instances
+			(project "Micromouse Power Subsystem"
+				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 16.51 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d94e96bc-eb39-4322-ada8-3e233b20f091")
+		(property "Reference" "R1"
+			(at 19.05 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100m"
+			(at 19.05 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Shunt_Ohmite_LVK12"
+			(at 15.494 54.356 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 16.51 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4486,7 +5964,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 99.06 0)
+		(at 49.53 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4495,7 +5973,7 @@
 		(fields_autoplaced yes)
 		(uuid "da6247ae-9c36-4845-87f3-9b6436e8680c")
 		(property "Reference" "#PWR04"
-			(at 80.01 105.41 0)
+			(at 49.53 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4504,7 +5982,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 104.14 0)
+			(at 49.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4512,7 +5990,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 99.06 0)
+			(at 49.53 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4521,7 +5999,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 99.06 0)
+			(at 49.53 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4530,7 +6008,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 99.06 0)
+			(at 49.53 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4551,117 +6029,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 78.74 139.7 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd5c8b04-7ce4-40cc-ac38-144a3f7a14b4")
-		(property "Reference" "Q(SI2301)1"
-			(at 72.39 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 72.39 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 78.74 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 78.74 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 78.74 122.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 78.74 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 78.74 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7dec4a0b-a9c9-4cbc-925f-c13fa8f73f2e")
-		)
-		(pin "2"
-			(uuid "837ceb7e-02a7-4b77-a1d6-8330a548ce0c")
-		)
-		(pin "3"
-			(uuid "d066e5ad-5e3a-4931-821d-1cd5c793d93a")
-		)
-		(instances
-			(project "Micromouse Power Subsystem"
-				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
-					(reference "Q(SI2301)1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 46.99 100.33 0)
+		(at 367.03 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e58f44ab-2068-47ab-a0f5-2f58330e61d4")
-		(property "Reference" "#PWR05"
-			(at 46.99 106.68 0)
+		(uuid "db75799b-6b1e-4ae6-bec7-552f2d044248")
+		(property "Reference" "#PWR014"
+			(at 367.03 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4670,7 +6048,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 105.41 0)
+			(at 367.03 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4678,7 +6056,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 100.33 0)
+			(at 367.03 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4687,7 +6065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 100.33 0)
+			(at 367.03 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4696,7 +6074,279 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 100.33 0)
+			(at 367.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c744548-8799-4a5d-98c4-96c01a481ee5")
+		)
+		(instances
+			(project "Micromouse Power Subsystem"
+				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 284.48 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e02f3e3a-2268-43d4-a95c-d46a88803703")
+		(property "Reference" "J1"
+			(at 287.02 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 287.02 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 284.48 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 284.48 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 284.48 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f50f9da8-a057-47c4-910d-be3baab85e6b")
+		)
+		(pin "1"
+			(uuid "9f8c738a-6178-44ea-a381-1f9f9d8df1cc")
+		)
+		(instances
+			(project "Micromouse Power Subsystem"
+				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_Motor:TB6612FNG")
+		(at 302.26 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e46f7ad0-ae0a-44f6-bd58-68f9bbab80be")
+		(property "Reference" "U2"
+			(at 312.0741 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TB6612FNG"
+			(at 312.0741 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
+			(at 335.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/us/product/linear/motordriver/detail.TB6612FNG.html"
+			(at 313.69 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Driver IC for Dual DC motor, SSOP-24"
+			(at 302.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "8da8eebc-0279-4a81-a9af-2b24916d31af")
+		)
+		(pin "18"
+			(uuid "12ad5a25-35a6-43de-a9e2-385af8b52c32")
+		)
+		(pin "2"
+			(uuid "32590829-4cc0-4012-a76a-ea9944e2878d")
+		)
+		(pin "20"
+			(uuid "073ec412-b1e4-4586-914d-1a591aae4727")
+		)
+		(pin "4"
+			(uuid "ab06ece5-47d1-4a0a-b73d-c319f3f82588")
+		)
+		(pin "13"
+			(uuid "ab53ba07-715e-4d2a-9930-6b8efe2eb059")
+		)
+		(pin "14"
+			(uuid "4423b354-af11-42ea-8de4-ed27863bb2a9")
+		)
+		(pin "15"
+			(uuid "a7e9db1e-f53f-41bc-b123-39c27b565b38")
+		)
+		(pin "16"
+			(uuid "ad36fc06-4614-493b-a83f-498d81a86d68")
+		)
+		(pin "3"
+			(uuid "60462f20-1bfa-44e9-98ad-9802dc7bba59")
+		)
+		(pin "12"
+			(uuid "eb25085c-7423-4f02-9cfb-6f095801033d")
+		)
+		(pin "5"
+			(uuid "24c0475f-6f88-48ac-a74c-fe20a9f34be6")
+		)
+		(pin "6"
+			(uuid "19db25be-f66e-45d0-8b51-18896fe4b83c")
+		)
+		(pin "23"
+			(uuid "a1780d66-3e57-455f-887e-8b8e9dc3cf26")
+		)
+		(pin "8"
+			(uuid "fec595ff-b674-4897-b90c-a16564f178d3")
+		)
+		(pin "9"
+			(uuid "77254140-3f13-42bb-88e4-aa5eb9605e08")
+		)
+		(pin "24"
+			(uuid "37ba524b-042a-4da2-877e-56aa1dbdaaab")
+		)
+		(pin "22"
+			(uuid "6c5cbb09-d196-418f-88f2-f99c306d03e5")
+		)
+		(pin "19"
+			(uuid "8ff5b938-5aee-4e20-8ab4-15c0a1e4b174")
+		)
+		(pin "1"
+			(uuid "662762de-7274-4d00-b592-59f0847bac17")
+		)
+		(pin "11"
+			(uuid "b0f7635d-aa15-4f53-8421-9e96c94a7b60")
+		)
+		(pin "10"
+			(uuid "09583de5-937d-4041-b6be-00711187663e")
+		)
+		(pin "17"
+			(uuid "7748b34c-20e6-4c32-8160-72bcfb4dca31")
+		)
+		(pin "21"
+			(uuid "9973e201-e502-45e8-84d8-703357018199")
+		)
+		(instances
+			(project "Micromouse Power Subsystem"
+				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 16.51 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e58f44ab-2068-47ab-a0f5-2f58330e61d4")
+		(property "Reference" "#PWR05"
+			(at 16.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 16.51 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 16.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 16.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 16.51 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4718,7 +6368,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 58.42 0)
+		(at 38.1 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4727,7 +6377,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9a08f9e-80e4-4bdc-9ea7-736102249e04")
 		(property "Reference" "#PWR03"
-			(at 68.58 64.77 0)
+			(at 38.1 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4736,7 +6386,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 63.5 0)
+			(at 38.1 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,7 +6394,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 58.42 0)
+			(at 38.1 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,7 +6403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 58.42 0)
+			(at 38.1 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,7 +6412,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 58.42 0)
+			(at 38.1 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4777,6 +6427,239 @@
 			(project "Micromouse Power Subsystem"
 				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 199.39 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1f6519f-3c99-41bc-96f9-4622d7d541d5")
+		(property "Reference" "R4"
+			(at 199.39 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 199.39 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.644 57.404 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 199.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c51c6e7-a4c0-48b5-b973-fafe2ff7a332")
+		)
+		(pin "2"
+			(uuid "8c495481-0bb5-4281-abec-2c95b577bc49")
+		)
+		(instances
+			(project "Micromouse Power Subsystem"
+				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 194.31 44.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6c3c17c-21d4-4398-863c-f07215362cb4")
+		(property "Reference" "Q(SI2301)2"
+			(at 187.96 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 187.96 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 194.31 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 194.31 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 194.31 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 194.31 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 194.31 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5725b7e8-0fd0-466f-b4d6-34ab59c9a951")
+		)
+		(pin "2"
+			(uuid "4ceb53ac-e994-4753-89af-a833788bf27d")
+		)
+		(pin "3"
+			(uuid "45a4622c-db60-483f-9584-443c3a0f8794")
+		)
+		(instances
+			(project "Micromouse Power Subsystem"
+				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
+					(reference "Q(SI2301)2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f902e820-1c73-4dbb-a24a-2632e05b3147")
+		(property "Reference" "#PWR08"
+			(at 165.1 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2eea96e6-56db-4e8a-8c7f-ba711bc583b7")
+		)
+		(instances
+			(project "Micromouse Power Subsystem"
+				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
