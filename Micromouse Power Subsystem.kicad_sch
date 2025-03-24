@@ -2908,7 +2908,7 @@
 		)
 	)
 	(junction
-		(at 278.13 41.91)
+		(at 276.86 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45a97327-57b9-4cb9-8865-061f1be9b54a")
@@ -2926,13 +2926,25 @@
 		(uuid "6380a3f7-b2e8-4e18-88a7-53aa603b4dbc")
 	)
 	(junction
-		(at 267.97 41.91)
+		(at 273.05 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "665897f1-f316-48d3-a70b-dca91f55dc55")
+	)
+	(junction
+		(at 266.7 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70f67eeb-2dc5-4530-91af-b5482bb89839")
 	)
 	(junction
-		(at 278.13 30.48)
+		(at 276.86 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80873997-fd7c-4ab9-9183-8876d6591a47")
+	)
+	(junction
+		(at 276.86 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84d6e8a1-588f-44b1-9fa9-c4d98a8c582d")
@@ -2950,7 +2962,7 @@
 		(uuid "afde0157-3873-48c1-bc05-64619b6ed992")
 	)
 	(junction
-		(at 267.97 27.94)
+		(at 266.7 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0d74ca4-063f-4480-82b6-fd47951f3c0e")
@@ -2966,6 +2978,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5e05b64-b01c-48c8-8a75-b729aeafcb4e")
+	)
+	(wire
+		(pts
+			(xy 273.05 27.94) (xy 273.05 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01389b7d-452c-4527-919a-5f5db284d8a2")
 	)
 	(wire
 		(pts
@@ -3019,7 +3041,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 41.91) (xy 267.97 52.07)
+			(xy 266.7 45.72) (xy 266.7 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3029,7 +3051,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 52.07) (xy 278.13 52.07)
+			(xy 274.32 55.88) (xy 276.86 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3079,7 +3101,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 41.91) (xy 267.97 41.91)
+			(xy 269.24 45.72) (xy 266.7 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3089,7 +3111,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 27.94) (xy 279.4 27.94)
+			(xy 266.7 31.75) (xy 273.05 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3099,7 +3121,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 30.48) (xy 279.4 30.48)
+			(xy 276.86 34.29) (xy 278.13 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3109,7 +3131,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 27.94) (xy 267.97 27.94)
+			(xy 265.43 31.75) (xy 266.7 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3139,7 +3161,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 72.39) (xy 322.58 72.39)
+			(xy 316.23 76.2) (xy 321.31 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3149,7 +3171,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 64.77) (xy 320.04 64.77)
+			(xy 316.23 68.58) (xy 318.77 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3159,7 +3181,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 52.07) (xy 267.97 52.07)
+			(xy 269.24 55.88) (xy 266.7 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3169,7 +3191,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 72.39) (xy 379.73 72.39)
+			(xy 373.38 76.2) (xy 378.46 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3179,7 +3201,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 52.07) (xy 278.13 41.91)
+			(xy 276.86 55.88) (xy 276.86 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3189,13 +3211,23 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 64.77) (xy 377.19 64.77)
+			(xy 373.38 68.58) (xy 375.92 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "97b8638d-bca8-4b1a-8686-78df926dd94d")
+	)
+	(wire
+		(pts
+			(xy 273.05 31.75) (xy 278.13 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98748ce7-4418-46e9-829a-c8b36bd2b4d5")
 	)
 	(wire
 		(pts
@@ -3239,7 +3271,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 41.91) (xy 278.13 30.48)
+			(xy 276.86 45.72) (xy 276.86 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3249,7 +3281,17 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 30.48) (xy 278.13 30.48)
+			(xy 276.86 39.37) (xy 280.67 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b56058fb-cea0-4e43-8be0-e14efb65de17")
+	)
+	(wire
+		(pts
+			(xy 275.59 34.29) (xy 276.86 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3269,7 +3311,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 41.91) (xy 278.13 41.91)
+			(xy 274.32 45.72) (xy 276.86 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3289,7 +3331,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 77.47) (xy 325.12 77.47)
+			(xy 316.23 81.28) (xy 323.85 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3329,7 +3371,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 41.91) (xy 267.97 27.94)
+			(xy 266.7 45.72) (xy 266.7 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3349,6 +3391,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 39.37) (xy 276.86 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f545ecd7-9ea8-4c9e-a373-25dc7f0dcf99")
+	)
+	(wire
+		(pts
 			(xy 165.1 36.83) (xy 165.1 44.45)
 		)
 		(stroke
@@ -3359,7 +3411,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 77.47) (xy 382.27 77.47)
+			(xy 373.38 81.28) (xy 381 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3391,15 +3443,25 @@
 		)
 		(uuid f44018fd-7371-471b-a20e-6ce13ef04f85)
 	)
-	(text "(K:) Provide 2x External Load Switching at 1A each (High Side connected to 5V)"
+	(text "(K.1:) Provide 2x External Load Switching at 1A each (High Side connected to 5V)"
 		(exclude_from_sim no)
-		(at 174.752 22.352 0)
+		(at 177.038 22.352 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.524 1.524)
 			)
 		)
 		(uuid "13368fc1-c8ee-4818-8b9d-699bed94475a")
+	)
+	(text "(K.2:) Operate up to 4 motors bidirectionally"
+		(exclude_from_sim no)
+		(at 323.596 22.86 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "a72f4e0d-590c-4bdf-80d1-f590e8b804b6")
 	)
 	(label "CTRL_EXT_LOAD1"
 		(at 149.86 58.42 180)
@@ -3413,7 +3475,7 @@
 		(uuid "02d7df68-3cd1-4c56-81fe-916f5dad5582")
 	)
 	(label "Motor1_A_OUT"
-		(at 379.73 72.39 90)
+		(at 378.46 76.2 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3422,6 +3484,17 @@
 			(justify left bottom)
 		)
 		(uuid "03223b8f-acd0-4c1d-86f3-443d5643a95f")
+	)
+	(label "JST2"
+		(at 308.61 99.06 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "04e6f4ce-8c3a-403f-ba39-7af54e9dea71")
 	)
 	(label "3V3_OUT"
 		(at 39.37 45.72 90)
@@ -3446,7 +3519,7 @@
 		(uuid "093137a1-7b33-43d3-a3ca-1d4351f2ffd5")
 	)
 	(label "Motor1_B_OUT"
-		(at 382.27 77.47 90)
+		(at 381 81.28 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3479,7 +3552,7 @@
 		(uuid "0d44c9a9-c0ac-4b79-bd09-5ca44192c0f9")
 	)
 	(label "Motor4_B_OUT"
-		(at 325.12 77.47 90)
+		(at 323.85 81.28 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3523,7 +3596,7 @@
 		(uuid "13dcde9d-5cdb-4ce0-bf35-3626587d47dd")
 	)
 	(label "Motor3_CTRL1"
-		(at 344.17 64.77 180)
+		(at 342.9 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3534,7 +3607,7 @@
 		(uuid "1463a22f-60c2-421d-a9f5-91e3f7161e27")
 	)
 	(label "Motor1_CTRL2"
-		(at 344.17 80.01 180)
+		(at 342.9 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3567,7 +3640,7 @@
 		(uuid "26d30e14-fa0d-458e-8fc9-d61b5bce807a")
 	)
 	(label "Motor4_CTRL2"
-		(at 287.02 77.47 180)
+		(at 285.75 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3588,6 +3661,28 @@
 		)
 		(uuid "2a1ee274-435c-4aab-9347-b0e1fd3366e8")
 	)
+	(label "JST2"
+		(at 350.52 99.06 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2cacd549-acb4-489f-8c7a-946f111b100c")
+	)
+	(label "JST2"
+		(at 293.37 99.06 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2d99af50-c781-4774-b256-7422e7e264d9")
+	)
 	(label "Motor3_CTRL1"
 		(at 95.25 66.04 0)
 		(fields_autoplaced yes)
@@ -3599,30 +3694,8 @@
 		)
 		(uuid "2e4bf15b-c131-4c48-ac1a-c04596fadd10")
 	)
-	(label "BAT+"
-		(at 304.8 44.45 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "30839e01-2ad4-4978-9e03-225e8fbf21ae")
-	)
-	(label "BAT+"
-		(at 367.03 44.45 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "33097fd8-f1f2-470b-affb-4b451dfe1cdd")
-	)
 	(label "Motor1_CTRL2"
-		(at 344.17 77.47 180)
+		(at 342.9 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3633,7 +3706,7 @@
 		(uuid "34115fb9-1cb2-482a-86a8-ee4b93e576c7")
 	)
 	(label "Motor3_CTRL2"
-		(at 344.17 74.93 180)
+		(at 342.9 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3644,7 +3717,7 @@
 		(uuid "370b75b5-3b5f-4d71-adb7-d291a1fc1935")
 	)
 	(label "Motor2_CTRL2"
-		(at 287.02 72.39 180)
+		(at 285.75 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3655,7 +3728,7 @@
 		(uuid "3b5e149d-b444-496b-a8fe-a90058f94c6f")
 	)
 	(label "Motor3_B_OUT"
-		(at 377.19 64.77 90)
+		(at 375.92 68.58 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3676,16 +3749,16 @@
 		)
 		(uuid "414ef552-8951-40b8-a805-2621f6ce9d71")
 	)
-	(label "BAT+"
-		(at 307.34 44.45 90)
+	(label "JST2"
+		(at 303.53 99.06 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "42ca6f10-b0d6-4667-b2d8-d89a41fbbeb4")
+		(uuid "434bbbed-9da4-41c4-b65d-078a750c5846")
 	)
 	(label "Motor2_A_OUT"
 		(at 95.25 38.1 0)
@@ -3709,8 +3782,19 @@
 		)
 		(uuid "5055ece9-f05c-4b71-97ac-6d02f6d35076")
 	)
+	(label "JST2"
+		(at 360.68 99.06 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5188cf46-8c70-48af-89cb-719e6301f70f")
+	)
 	(label "3V3_OUT"
-		(at 294.64 44.45 180)
+		(at 293.37 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3730,28 +3814,6 @@
 			(justify left bottom)
 		)
 		(uuid "54f23aad-44b1-4562-827a-9bdccc2d8810")
-	)
-	(label "BAT+"
-		(at 361.95 44.45 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5741f0fc-8af3-4208-b31b-015fe5195cf2")
-	)
-	(label "BAT+"
-		(at 364.49 44.45 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a82439a-a701-4d52-a20a-e9be9c5d07df")
 	)
 	(label "V_Switch"
 		(at 16.51 45.72 0)
@@ -3776,7 +3838,7 @@
 		(uuid "6a2d5cee-b2f2-4c1e-8bec-9a097b720d6d")
 	)
 	(label "Motor2_B_OUT"
-		(at 320.04 64.77 90)
+		(at 318.77 68.58 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3798,7 +3860,7 @@
 		(uuid "6fa46a5d-2ecc-4b15-9237-753586e3daae")
 	)
 	(label "Motor3_CTRL2"
-		(at 344.17 72.39 180)
+		(at 342.9 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3809,7 +3871,7 @@
 		(uuid "6ffe1fd1-5491-4621-9cb1-7aa9cacbb12a")
 	)
 	(label "3V3_OUT"
-		(at 351.79 44.45 180)
+		(at 350.52 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3841,6 +3903,17 @@
 		)
 		(uuid "7ca41069-1b37-4a73-8fe0-c1adef87164b")
 	)
+	(label "JST1"
+		(at 303.53 48.26 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d96db6f-fe3c-4b02-bb43-5b3685190635")
+	)
 	(label "3V3_OUT"
 		(at 95.25 58.42 0)
 		(fields_autoplaced yes)
@@ -3862,6 +3935,17 @@
 			(justify right bottom)
 		)
 		(uuid "807f892c-367c-447b-b02c-c3be08cdc0d4")
+	)
+	(label "JST1"
+		(at 363.22 48.26 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83154d04-e243-4ea0-828b-98e26753b221")
 	)
 	(label "FAST_CHARGE_CTRL"
 		(at 82.55 53.34 180)
@@ -3897,7 +3981,7 @@
 		(uuid "894d4dd8-de2c-4b7e-9113-f83d5dc11d73")
 	)
 	(label "3V3_OUT"
-		(at 344.17 59.69 180)
+		(at 342.9 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3917,6 +4001,28 @@
 			(justify left bottom)
 		)
 		(uuid "8d129b26-66bb-4755-ba1d-31f09aefcbd6")
+	)
+	(label "JST1"
+		(at 308.61 48.26 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9204539f-5cd2-4a8e-947f-3d4bd955b774")
+	)
+	(label "JST2"
+		(at 365.76 99.06 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9abdfae4-850f-4f09-b49c-37a7cffa779f")
 	)
 	(label "test"
 		(at 24.13 73.66 0)
@@ -3940,8 +4046,8 @@
 		)
 		(uuid "9f22d888-202f-40bd-8887-6843531cee8f")
 	)
-	(label "BAT+"
-		(at 309.88 44.45 90)
+	(label "JST1"
+		(at 306.07 48.26 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3949,7 +4055,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a13e897b-7541-438e-93b1-dbac81666ecd")
+		(uuid "a050dd50-35fa-4ad9-b0d1-e1a02ccde1b2")
 	)
 	(label "Motor2_B_OUT"
 		(at 82.55 38.1 180)
@@ -3962,8 +4068,19 @@
 		)
 		(uuid "a172ef2f-ec47-470c-a09c-bf69b8dd2328")
 	)
+	(label "JST1"
+		(at 360.68 48.26 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2b70df3-9f63-4b91-911f-9a0b371dafea")
+	)
 	(label "BAT+"
-		(at 266.7 27.94 180)
+		(at 265.43 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3985,7 +4102,7 @@
 		(uuid "a639fa26-008b-4c52-b59f-6d33ea431629")
 	)
 	(label "Motor1_CTRL1"
-		(at 344.17 67.31 180)
+		(at 342.9 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4007,7 +4124,7 @@
 		(uuid "b31ed260-c039-40d0-8815-05fb42a913fd")
 	)
 	(label "Motor3_A_OUT"
-		(at 374.65 59.69 90)
+		(at 373.38 63.5 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4017,8 +4134,19 @@
 		)
 		(uuid "b68767de-674c-49a3-8b6b-083c9a6f00bf")
 	)
+	(label "JST1"
+		(at 365.76 48.26 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "baea59af-4008-41b9-8205-18383fdc41fc")
+	)
 	(label "Motor4_CTRL2"
-		(at 287.02 80.01 180)
+		(at 285.75 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4028,8 +4156,19 @@
 		)
 		(uuid "c0f4c40c-312f-40b8-9823-5a666f44f777")
 	)
+	(label "JST2"
+		(at 280.67 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c186dd02-8f95-4eb0-92cd-ea33de889e0f")
+	)
 	(label "3V3_OUT"
-		(at 287.02 59.69 180)
+		(at 285.75 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4051,7 +4190,7 @@
 		(uuid "c7aa94b8-0b8c-4bb5-8522-2c925294fec5")
 	)
 	(label "Motor2_A_OUT"
-		(at 317.5 59.69 90)
+		(at 316.23 63.5 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4073,7 +4212,7 @@
 		(uuid "ce4e6162-856e-4f7c-94e4-df18649acb7f")
 	)
 	(label "Motor4_CTRL1"
-		(at 287.02 67.31 180)
+		(at 285.75 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4095,7 +4234,7 @@
 		(uuid "d5f20921-ec87-4b49-a04a-16358a382dcc")
 	)
 	(label "Motor2_CTRL2"
-		(at 287.02 74.93 180)
+		(at 285.75 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4139,7 +4278,7 @@
 		(uuid "e643db11-02e4-4c3a-ad71-ddec83a17c5a")
 	)
 	(label "Motor2_CTRL1"
-		(at 287.02 64.77 180)
+		(at 285.75 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4148,6 +4287,17 @@
 			(justify right bottom)
 		)
 		(uuid "f3389345-25cf-4233-b712-77aba60ef889")
+	)
+	(label "JST1"
+		(at 273.05 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f74ee10a-95da-43b5-9d6c-063a2c1ff07b")
 	)
 	(label "Motor3_B_OUT"
 		(at 82.55 73.66 180)
@@ -4183,7 +4333,7 @@
 		(uuid "fe0b0e8c-d8ea-42a3-861b-c2d92025e716")
 	)
 	(label "Motor4_A_OUT"
-		(at 322.58 72.39 90)
+		(at 321.31 76.2 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4195,7 +4345,7 @@
 	)
 	(symbol
 		(lib_id "Driver_Motor:TB6612FNG")
-		(at 359.41 69.85 0)
+		(at 358.14 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4204,7 +4354,7 @@
 		(fields_autoplaced yes)
 		(uuid "019e4ca2-c428-4b06-99e0-db07b0faa2a0")
 		(property "Reference" "U3"
-			(at 369.2241 92.71 0)
+			(at 367.9541 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4213,7 +4363,7 @@
 			)
 		)
 		(property "Value" "TB6612FNG"
-			(at 369.2241 95.25 0)
+			(at 367.9541 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4222,7 +4372,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
-			(at 392.43 92.71 0)
+			(at 391.16 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4231,7 +4381,7 @@
 			)
 		)
 		(property "Datasheet" "https://toshiba.semicon-storage.com/us/product/linear/motordriver/detail.TB6612FNG.html"
-			(at 370.84 54.61 0)
+			(at 369.57 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4240,7 +4390,7 @@
 			)
 		)
 		(property "Description" "Driver IC for Dual DC motor, SSOP-24"
-			(at 359.41 69.85 0)
+			(at 358.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4397,138 +4547,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 361.95 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b98b18f-41a3-446f-b66a-c5761ccd1356")
-		(property "Reference" "#PWR013"
-			(at 361.95 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 361.95 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 361.95 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 361.95 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 361.95 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b51c0d67-e27d-42d0-bdd7-8d7a16cff022")
-		)
-		(instances
-			(project "Micromouse Power Subsystem"
-				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 304.8 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30bb4aa1-8416-44d8-b1bb-8d6a42f1f756")
-		(property "Reference" "#PWR07"
-			(at 304.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 304.8 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 304.8 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.8 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 304.8 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f62bd40d-88f5-43f9-8712-352fcde39ec2")
-		)
-		(instances
-			(project "Micromouse Power Subsystem"
-				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Sensor_Energy:INA219AxD")
 		(at 39.37 55.88 0)
 		(unit 1)
@@ -4618,138 +4636,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 309.88 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4426ee2a-5604-4e0c-8e1a-e75e3614a09a")
-		(property "Reference" "#PWR09"
-			(at 309.88 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 309.88 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 309.88 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.88 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 309.88 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7f8b4b4-e3a0-42b9-bffd-4685578fbb9e")
-		)
-		(instances
-			(project "Micromouse Power Subsystem"
-				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 351.79 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "568596bc-4dbf-454f-821c-939ba79e2808")
-		(property "Reference" "#PWR012"
-			(at 351.79 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 351.79 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 351.79 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 351.79 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 351.79 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "998fd84c-faeb-4e0b-8d7a-23a96e6e9150")
-		)
-		(instances
-			(project "Micromouse Power Subsystem"
-				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 210.82 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4816,7 +4702,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 273.05 52.07 90)
+		(at 271.78 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4825,7 +4711,7 @@
 		(fields_autoplaced yes)
 		(uuid "58ffd709-ad14-4e31-ba9f-744e1083aaef")
 		(property "Reference" "C2"
-			(at 273.0563 45.72 90)
+			(at 271.7863 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4833,7 +4719,7 @@
 			)
 		)
 		(property "Value" "0.1µ"
-			(at 273.0563 48.26 90)
+			(at 271.7863 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4841,7 +4727,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 52.07 0)
+			(at 271.78 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4850,7 +4736,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 273.05 52.07 0)
+			(at 271.78 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4859,7 +4745,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 273.05 52.07 0)
+			(at 271.78 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5259,72 +5145,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 294.64 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a15233a8-86a1-4c3e-b716-7c589775fd80")
-		(property "Reference" "#PWR011"
-			(at 294.64 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 294.64 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 294.64 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 294.64 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 294.64 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "727c76ca-8e27-431b-8b77-3d188cbfee5f")
-		)
-		(instances
-			(project "Micromouse Power Subsystem"
-				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:2N3904")
 		(at 208.28 58.42 0)
 		(unit 1)
@@ -5559,7 +5379,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 273.05 41.91 90)
+		(at 271.78 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5568,7 +5388,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9fba757-0cb2-4ab2-a11d-a5f49db39c42")
 		(property "Reference" "C1"
-			(at 273.0563 35.56 90)
+			(at 271.7863 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5576,7 +5396,7 @@
 			)
 		)
 		(property "Value" "100µ"
-			(at 273.0563 38.1 90)
+			(at 271.7863 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,7 +5404,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 41.91 0)
+			(at 271.78 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5593,7 +5413,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 273.05 41.91 0)
+			(at 271.78 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5602,7 +5422,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 273.05 41.91 0)
+			(at 271.78 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5760,7 +5580,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 276.86 30.48 270)
+		(at 275.59 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5769,7 +5589,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1a59066-69e5-4b62-8cf7-f6363fdd2c66")
 		(property "Reference" "#PWR015"
-			(at 270.51 30.48 0)
+			(at 269.24 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5778,7 +5598,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 273.05 31.115 90)
+			(at 271.78 34.925 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5787,7 +5607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 30.48 0)
+			(at 275.59 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5796,7 +5616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 30.48 0)
+			(at 275.59 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5805,7 +5625,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 276.86 30.48 0)
+			(at 275.59 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6029,74 +5849,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 367.03 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db75799b-6b1e-4ae6-bec7-552f2d044248")
-		(property "Reference" "#PWR014"
-			(at 367.03 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 367.03 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 367.03 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 367.03 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 367.03 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c744548-8799-4a5d-98c4-96c01a481ee5")
-		)
-		(instances
-			(project "Micromouse Power Subsystem"
-				(path "/c31c9b5f-16c8-4039-9f8b-b05613c282c9"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 284.48 27.94 0)
+		(at 283.21 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6105,7 +5859,7 @@
 		(fields_autoplaced yes)
 		(uuid "e02f3e3a-2268-43d4-a95c-d46a88803703")
 		(property "Reference" "J1"
-			(at 287.02 27.9399 0)
+			(at 285.75 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6114,7 +5868,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 287.02 30.4799 0)
+			(at 285.75 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6123,7 +5877,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 284.48 27.94 0)
+			(at 283.21 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6132,7 +5886,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 284.48 27.94 0)
+			(at 283.21 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6141,7 +5895,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 284.48 27.94 0)
+			(at 283.21 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6166,7 +5920,7 @@
 	)
 	(symbol
 		(lib_id "Driver_Motor:TB6612FNG")
-		(at 302.26 69.85 0)
+		(at 300.99 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6175,7 +5929,7 @@
 		(fields_autoplaced yes)
 		(uuid "e46f7ad0-ae0a-44f6-bd58-68f9bbab80be")
 		(property "Reference" "U2"
-			(at 312.0741 92.71 0)
+			(at 310.8041 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6184,7 +5938,7 @@
 			)
 		)
 		(property "Value" "TB6612FNG"
-			(at 312.0741 95.25 0)
+			(at 310.8041 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6193,7 +5947,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
-			(at 335.28 92.71 0)
+			(at 334.01 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6202,7 +5956,7 @@
 			)
 		)
 		(property "Datasheet" "https://toshiba.semicon-storage.com/us/product/linear/motordriver/detail.TB6612FNG.html"
-			(at 313.69 54.61 0)
+			(at 312.42 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6211,7 +5965,7 @@
 			)
 		)
 		(property "Description" "Driver IC for Dual DC motor, SSOP-24"
-			(at 302.26 69.85 0)
+			(at 300.99 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
