@@ -9,7 +9,7 @@ Josh:
 
 Kiyuran:
 - 2x External Load Switching (1A High Side, 5V) → Easy **(DONE)**
-- Operate up to 4 motors bidirectionally → Medium
+- Operate up to 4 motors bidirectionally → Medium **(DONE)**
 - 3V3 (300mA) & 5V (1.5A) power regulation → Medium
 - Two charging modes (200mA & ~600mA ±100mA) → Hard
 
